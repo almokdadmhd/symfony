@@ -28,6 +28,7 @@ class ArticleCrudController extends AbstractCrudController
                 ->setRequired(false),
             AssociationField::new('author'),
             AssociationField::new('category')
+            
         ];
     }
 }
